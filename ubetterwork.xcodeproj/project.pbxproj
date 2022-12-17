@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15CAAB02294E61A3006D8D46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CAAB01294E61A3006D8D46 /* AppDelegate.swift */; };
+		15CAAB04294E61A3006D8D46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CAAB03294E61A3006D8D46 /* SceneDelegate.swift */; };
+		15CAAB06294E61A3006D8D46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CAAB05294E61A3006D8D46 /* ViewController.swift */; };
+		15CAAB09294E61A3006D8D46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CAAB07294E61A3006D8D46 /* Main.storyboard */; };
+		15CAAB0C294E61A3006D8D46 /* ubetterwork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15CAAB0A294E61A3006D8D46 /* ubetterwork.xcdatamodeld */; };
+		15CAAB0E294E61A4006D8D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15CAAB0D294E61A4006D8D46 /* Assets.xcassets */; };
+		15CAAB11294E61A4006D8D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CAAB0F294E61A4006D8D46 /* LaunchScreen.storyboard */; };
+		15CAAB1C294E61A5006D8D46 /* ubetterworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CAAB1B294E61A5006D8D46 /* ubetterworkTests.swift */; };
+		15CAAB26294E61A5006D8D46 /* ubetterworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CAAB25294E61A5006D8D46 /* ubetterworkUITests.swift */; };
+		15CAAB28294E61A5006D8D46 /* ubetterworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CAAB27294E61A5006D8D46 /* ubetterworkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15CAAB18294E61A5006D8D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15CAAAF6294E61A3006D8D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15CAAAFD294E61A3006D8D46;
+			remoteInfo = ubetterwork;
+		};
+		15CAAB22294E61A5006D8D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15CAAAF6294E61A3006D8D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15CAAAFD294E61A3006D8D46;
+			remoteInfo = ubetterwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15CAAAFE294E61A3006D8D46 /* ubetterwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ubetterwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CAAB01294E61A3006D8D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15CAAB03294E61A3006D8D46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		15CAAB05294E61A3006D8D46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15CAAB08294E61A3006D8D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15CAAB0B294E61A3006D8D46 /* ubetterwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ubetterwork.xcdatamodel; sourceTree = "<group>"; };
+		15CAAB0D294E61A4006D8D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15CAAB10294E61A4006D8D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15CAAB12294E61A4006D8D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15CAAB17294E61A5006D8D46 /* ubetterworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ubetterworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CAAB1B294E61A5006D8D46 /* ubetterworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ubetterworkTests.swift; sourceTree = "<group>"; };
+		15CAAB21294E61A5006D8D46 /* ubetterworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ubetterworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CAAB25294E61A5006D8D46 /* ubetterworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ubetterworkUITests.swift; sourceTree = "<group>"; };
+		15CAAB27294E61A5006D8D46 /* ubetterworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ubetterworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15CAAAFB294E61A3006D8D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CAAB14294E61A5006D8D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CAAB1E294E61A5006D8D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15CAAAF5294E61A3006D8D46 = {
+			isa = PBXGroup;
+			children = (
+				15CAAB00294E61A3006D8D46 /* ubetterwork */,
+				15CAAB1A294E61A5006D8D46 /* ubetterworkTests */,
+				15CAAB24294E61A5006D8D46 /* ubetterworkUITests */,
+				15CAAAFF294E61A3006D8D46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15CAAAFF294E61A3006D8D46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15CAAAFE294E61A3006D8D46 /* ubetterwork.app */,
+				15CAAB17294E61A5006D8D46 /* ubetterworkTests.xctest */,
+				15CAAB21294E61A5006D8D46 /* ubetterworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15CAAB00294E61A3006D8D46 /* ubetterwork */ = {
+			isa = PBXGroup;
+			children = (
+				15CAAB01294E61A3006D8D46 /* AppDelegate.swift */,
+				15CAAB03294E61A3006D8D46 /* SceneDelegate.swift */,
+				15CAAB05294E61A3006D8D46 /* ViewController.swift */,
+				15CAAB07294E61A3006D8D46 /* Main.storyboard */,
+				15CAAB0D294E61A4006D8D46 /* Assets.xcassets */,
+				15CAAB0F294E61A4006D8D46 /* LaunchScreen.storyboard */,
+				15CAAB12294E61A4006D8D46 /* Info.plist */,
+				15CAAB0A294E61A3006D8D46 /* ubetterwork.xcdatamodeld */,
+			);
+			path = ubetterwork;
+			sourceTree = "<group>";
+		};
+		15CAAB1A294E61A5006D8D46 /* ubetterworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				15CAAB1B294E61A5006D8D46 /* ubetterworkTests.swift */,
+			);
+			path = ubetterworkTests;
+			sourceTree = "<group>";
+		};
+		15CAAB24294E61A5006D8D46 /* ubetterworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15CAAB25294E61A5006D8D46 /* ubetterworkUITests.swift */,
+				15CAAB27294E61A5006D8D46 /* ubetterworkUITestsLaunchTests.swift */,
+			);
+			path = ubetterworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15CAAAFD294E61A3006D8D46 /* ubetterwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15CAAB2B294E61A5006D8D46 /* Build configuration list for PBXNativeTarget "ubetterwork" */;
+			buildPhases = (
+				15CAAAFA294E61A3006D8D46 /* Sources */,
+				15CAAAFB294E61A3006D8D46 /* Frameworks */,
+				15CAAAFC294E61A3006D8D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ubetterwork;
+			productName = ubetterwork;
+			productReference = 15CAAAFE294E61A3006D8D46 /* ubetterwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15CAAB16294E61A5006D8D46 /* ubetterworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15CAAB2E294E61A5006D8D46 /* Build configuration list for PBXNativeTarget "ubetterworkTests" */;
+			buildPhases = (
+				15CAAB13294E61A5006D8D46 /* Sources */,
+				15CAAB14294E61A5006D8D46 /* Frameworks */,
+				15CAAB15294E61A5006D8D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15CAAB19294E61A5006D8D46 /* PBXTargetDependency */,
+			);
+			name = ubetterworkTests;
+			productName = ubetterworkTests;
+			productReference = 15CAAB17294E61A5006D8D46 /* ubetterworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15CAAB20294E61A5006D8D46 /* ubetterworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15CAAB31294E61A5006D8D46 /* Build configuration list for PBXNativeTarget "ubetterworkUITests" */;
+			buildPhases = (
+				15CAAB1D294E61A5006D8D46 /* Sources */,
+				15CAAB1E294E61A5006D8D46 /* Frameworks */,
+				15CAAB1F294E61A5006D8D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15CAAB23294E61A5006D8D46 /* PBXTargetDependency */,
+			);
+			name = ubetterworkUITests;
+			productName = ubetterworkUITests;
+			productReference = 15CAAB21294E61A5006D8D46 /* ubetterworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15CAAAF6294E61A3006D8D46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					15CAAAFD294E61A3006D8D46 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					15CAAB16294E61A5006D8D46 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 15CAAAFD294E61A3006D8D46;
+					};
+					15CAAB20294E61A5006D8D46 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 15CAAAFD294E61A3006D8D46;
+					};
+				};
+			};
+			buildConfigurationList = 15CAAAF9294E61A3006D8D46 /* Build configuration list for PBXProject "ubetterwork" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15CAAAF5294E61A3006D8D46;
+			productRefGroup = 15CAAAFF294E61A3006D8D46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15CAAAFD294E61A3006D8D46 /* ubetterwork */,
+				15CAAB16294E61A5006D8D46 /* ubetterworkTests */,
+				15CAAB20294E61A5006D8D46 /* ubetterworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15CAAAFC294E61A3006D8D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CAAB11294E61A4006D8D46 /* LaunchScreen.storyboard in Resources */,
+				15CAAB0E294E61A4006D8D46 /* Assets.xcassets in Resources */,
+				15CAAB09294E61A3006D8D46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CAAB15294E61A5006D8D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CAAB1F294E61A5006D8D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15CAAAFA294E61A3006D8D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CAAB06294E61A3006D8D46 /* ViewController.swift in Sources */,
+				15CAAB02294E61A3006D8D46 /* AppDelegate.swift in Sources */,
+				15CAAB0C294E61A3006D8D46 /* ubetterwork.xcdatamodeld in Sources */,
+				15CAAB04294E61A3006D8D46 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CAAB13294E61A5006D8D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CAAB1C294E61A5006D8D46 /* ubetterworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CAAB1D294E61A5006D8D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CAAB26294E61A5006D8D46 /* ubetterworkUITests.swift in Sources */,
+				15CAAB28294E61A5006D8D46 /* ubetterworkUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15CAAB19294E61A5006D8D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15CAAAFD294E61A3006D8D46 /* ubetterwork */;
+			targetProxy = 15CAAB18294E61A5006D8D46 /* PBXContainerItemProxy */;
+		};
+		15CAAB23294E61A5006D8D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15CAAAFD294E61A3006D8D46 /* ubetterwork */;
+			targetProxy = 15CAAB22294E61A5006D8D46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15CAAB07294E61A3006D8D46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15CAAB08294E61A3006D8D46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15CAAB0F294E61A4006D8D46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15CAAB10294E61A4006D8D46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15CAAB29294E61A5006D8D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15CAAB2A294E61A5006D8D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15CAAB2C294E61A5006D8D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUT9L7HQFK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ubetterwork/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FeminFinance.ubetterwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15CAAB2D294E61A5006D8D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUT9L7HQFK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ubetterwork/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FeminFinance.ubetterwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15CAAB2F294E61A5006D8D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUT9L7HQFK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FeminFinance.ubetterworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ubetterwork.app/ubetterwork";
+			};
+			name = Debug;
+		};
+		15CAAB30294E61A5006D8D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUT9L7HQFK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FeminFinance.ubetterworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ubetterwork.app/ubetterwork";
+			};
+			name = Release;
+		};
+		15CAAB32294E61A5006D8D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUT9L7HQFK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FeminFinance.ubetterworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ubetterwork;
+			};
+			name = Debug;
+		};
+		15CAAB33294E61A5006D8D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUT9L7HQFK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FeminFinance.ubetterworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ubetterwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15CAAAF9294E61A3006D8D46 /* Build configuration list for PBXProject "ubetterwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CAAB29294E61A5006D8D46 /* Debug */,
+				15CAAB2A294E61A5006D8D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15CAAB2B294E61A5006D8D46 /* Build configuration list for PBXNativeTarget "ubetterwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CAAB2C294E61A5006D8D46 /* Debug */,
+				15CAAB2D294E61A5006D8D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15CAAB2E294E61A5006D8D46 /* Build configuration list for PBXNativeTarget "ubetterworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CAAB2F294E61A5006D8D46 /* Debug */,
+				15CAAB30294E61A5006D8D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15CAAB31294E61A5006D8D46 /* Build configuration list for PBXNativeTarget "ubetterworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CAAB32294E61A5006D8D46 /* Debug */,
+				15CAAB33294E61A5006D8D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		15CAAB0A294E61A3006D8D46 /* ubetterwork.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				15CAAB0B294E61A3006D8D46 /* ubetterwork.xcdatamodel */,
+			);
+			currentVersion = 15CAAB0B294E61A3006D8D46 /* ubetterwork.xcdatamodel */;
+			path = ubetterwork.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 15CAAAF6294E61A3006D8D46 /* Project object */;
+}
